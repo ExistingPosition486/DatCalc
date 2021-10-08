@@ -189,5 +189,15 @@ namespace DatCalc
         {
             Process.Start("https://github.com/Dat-Dot/DatCalc/issues");
         }
+
+        private void aboutWindowsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("C:\\Windows\\system32\\winver.exe");
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
